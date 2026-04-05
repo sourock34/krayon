@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krayan — Managed Procurement Consultancy for Indian Businesses</title>
+  <meta name="description" content="Krayan is a managed procurement consultancy helping Indian businesses run RFQs, negotiate with suppliers, manage vendors, and uncover measurable savings. Strategic sourcing, supply chain consulting, and procurement analytics." />
+  <meta name="keywords" content="procurement consultancy India, vendor management services, strategic sourcing, procurement analytics, supply chain consulting India, managed procurement, vendor onboarding" />
+  <link rel="canonical" href="https://krayan.in" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo" aria-label="Krayan Home">
+        <div class="logo-mark">Kr</div>
+        <span class="logo-text">Kray<span>an</span></span>
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="#vendor-management" class="nav-link">Vendor Management</a></li>
+        <li><a href="#analytics" class="nav-link">Analytics</a></li>
+        <li><a href="#consulting" class="nav-link">Consulting</a></li>
+        <li><a href="#training" class="nav-link">Training</a></li>
+        <li><a href="#plans" class="nav-link">Plans</a></li>
+        <li><a href="vendor-registration.html" class="nav-link">Vendor Registration</a></li>
+      </ul>
+      <div class="navbar-actions">
+        <a href="#demo" class="btn btn-primary btn-sm">Book Free Demo</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+  <a href="#vendor-management" class="nav-link">Vendor Management</a>
+  <a href="#analytics" class="nav-link">Analytics</a>
+  <a href="#consulting" class="nav-link">Consulting</a>
+  <a href="#training" class="nav-link">Training</a>
+  <a href="#plans" class="nav-link">Plans</a>
+  <a href="vendor-registration.html" class="nav-link">Vendor Registration</a>
+  <a href="#demo" class="btn btn-primary">Book Free Demo</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero section-dark" id="home">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge reveal">
+          <span class="hero-badge-dot"></span>
+          Managed Procurement &bull; India-Focused
+        </div>
+        <h1 class="hero-title reveal reveal-delay-1">
+          Managed Procurement,<br>
+          <span class="line-accent">Built for Cost Control.</span>
+        </h1>
+        <p class="hero-subtitle reveal reveal-delay-2">
+          Krayan helps businesses run RFQs, negotiate with suppliers, improve vendor performance, and uncover measurable savings — while suppliers continue to invoice clients directly.
+        </p>
+        <div class="hero-ctas reveal reveal-delay-3">
+          <a href="#demo" class="btn btn-primary btn-lg" id="hero-demo-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>
+            Book Free Demo
+          </a>
+          <a href="vendor-registration.html" class="btn btn-outline btn-lg" id="hero-vendor-btn">
+            Register as Vendor
+          </a>
+        </div>
+        <div class="hero-stats reveal reveal-delay-4">
+          <div class="hero-stat">
+            <div class="hero-stat-value">12–18%</div>
+            <div class="hero-stat-label">Average Savings Delivered</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">500+</div>
+            <div class="hero-stat-label">Vendor Negotiations Managed</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">₹ CR</div>
+            <div class="hero-stat-label">Procurement Value Handled</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-delay-2">
+        <div class="dashboard-card">
+          <div class="dashboard-card-header">
+            <span class="dash-title">Procurement Dashboard</span>
+            <span class="dash-badge">Live View</span>
+          </div>
+          <div class="metric-row">
+            <div class="metric-box">
+              <div class="metric-box-label">Active RFQs</div>
+              <div class="metric-box-value">24</div>
+              <div class="metric-box-change up">↑ 6 this week</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-box-label">Savings This Qtr</div>
+              <div class="metric-box-value">₹1.4 Cr</div>
+              <div class="metric-box-change up">↑ 14.2%</div>
+            </div>
+          </div>
+          <div style="margin-bottom:14px;">
+            <div class="dash-title" style="margin-bottom:10px;">Top Vendors by Score</div>
+            <div class="vendor-list">
+              <div class="vendor-item">
+                <span class="vendor-name">Rajan Industries</span>
+                <div class="vendor-bar-wrap"><div class="vendor-bar" style="width:91%"></div></div>
+                <span class="vendor-score">91</span>
+              </div>
+              <div class="vendor-item">
+                <span class="vendor-name">Mehta Components</span>
+                <div class="vendor-bar-wrap"><div class="vendor-bar" style="width:84%"></div></div>
+                <span class="vendor-score">84</span>
+              </div>
+              <div class="vendor-item">
+                <span class="vendor-name">PrecisionTech Ltd</span>
+                <div class="vendor-bar-wrap"><div class="vendor-bar" style="width:78%"></div></div>
+                <span class="vendor-score">78</span>
+              </div>
+            </div>
+          </div>
+          <div class="metric-row">
+            <div class="metric-box">
+              <div class="metric-box-label">Vendors Active</div>
+              <div class="metric-box-value">138</div>
+              <div class="metric-box-change up">↑ 12 new</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-box-label">Compliance Rate</div>
+              <div class="metric-box-value">96%</div>
+              <div class="metric-box-change up">↑ 3.1%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<div class="trust-strip">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item reveal">
+        <div class="trust-icon">📋</div>
+        <div>
+          <div class="trust-label">RFQ &amp; Bid Management</div>
+          <div class="trust-sub">End-to-end execution</div>
+        </div>
+      </div>
+      <div class="trust-item reveal reveal-delay-1">
+        <div class="trust-icon">🏭</div>
+        <div>
+          <div class="trust-label">Vendor Performance Visibility</div>
+          <div class="trust-sub">Scorecard-driven intelligence</div>
+        </div>
+      </div>
+      <div class="trust-item reveal reveal-delay-2">
+        <div class="trust-icon">📊</div>
+        <div>
+          <div class="trust-label">Spend Analytics</div>
+          <div class="trust-sub">Category-level insights</div>
+        </div>
+      </div>
+      <div class="trust-item reveal reveal-delay-3">
+        <div class="trust-icon">🔗</div>
+        <div>
+          <div class="trust-label">Commodity-Linked Sourcing</div>
+          <div class="trust-sub">LME market intelligence</div>
+        </div>
+      </div>
+      <div class="trust-item reveal reveal-delay-4">
+        <div class="trust-icon">🎓</div>
+        <div>
+          <div class="trust-label">Supply Chain Training</div>
+          <div class="trust-sub">Corporate modules &amp; workshops</div>
+        </div>
+      </div>
+      <div class="trust-item reveal reveal-delay-4">
+        <div class="trust-icon">🤝</div>
+        <div>
+          <div class="trust-label">Supply Chain Consulting</div>
+          <div class="trust-sub">Strategic advisory partnerships</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VENDOR MANAGEMENT ============ -->
+<section class="section-alt" id="vendor-management">
+  <div class="container">
+    <div class="vendor-mgmt-grid">
+      <div>
+        <div class="section-header reveal">
+          <div class="section-label">Vendor Management</div>
+          <h2 class="section-title">Control your <em>supplier network</em> with precision.</h2>
+          <p class="section-subtitle">Krayan helps you onboard, evaluate, track, and govern your vendor base — so every procurement decision is backed by clean, structured supplier intelligence.</p>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item reveal reveal-delay-1">
+            <div class="feature-icon">🔍</div>
+            <div>
+              <div class="feature-title">Supplier Onboarding &amp; Verification</div>
+              <div class="feature-desc">Structured onboarding workflows with document collection, GST verification, capacity assessment, and compliance screening.</div>
+            </div>
+          </div>
+          <div class="feature-item reveal reveal-delay-2">
+            <div class="feature-icon">📈</div>
+            <div>
+              <div class="feature-title">Performance Scorecards</div>
+              <div class="feature-desc">Track delivery timelines, quality performance, responsiveness, pricing, and compliance on a unified vendor scorecard.</div>
+            </div>
+          </div>
+          <div class="feature-item reveal reveal-delay-3">
+            <div class="feature-icon">🗂️</div>
+            <div>
+              <div class="feature-title">Centralized Vendor Records</div>
+              <div class="feature-desc">Maintain a single, structured database of supplier data — categories, certifications, documentation expiry, and contact hierarchy.</div>
+            </div>
+          </div>
+          <div class="feature-item reveal reveal-delay-4">
+            <div class="feature-icon">⚖️</div>
+            <div>
+              <div class="feature-title">Vendor Risk &amp; Benchmarking</div>
+              <div class="feature-desc">Compare suppliers across categories, identify single-source risks, and support rationalization decisions with data-backed benchmarks.</div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:36px;" class="reveal">
+          <a href="#demo" class="btn btn-primary">Request Vendor Assessment <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="vendor-dashboard-ui reveal reveal-delay-2">
+        <div class="ui-header">
+          <div class="ui-header-dot"></div>
+          <div class="ui-header-dot"></div>
+          <div class="ui-header-dot"></div>
+          <span class="ui-header-title">vendor-management.krayan</span>
+        </div>
+        <div class="ui-body">
+          <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:12px;">Active Vendor Scorecards</div>
+          <div class="vendor-score-card">
+            <div class="vsc-info">
+              <div class="vsc-name">Bharat Metals &amp; Alloys</div>
+              <div class="vsc-category">Raw Materials · Maharashtra</div>
+            </div>
+            <div class="vsc-score-wrap">
+              <div class="vsc-score">94</div>
+              <div class="vsc-badge badge-green">Preferred</div>
+            </div>
+          </div>
+          <div class="vendor-score-card">
+            <div class="vsc-info">
+              <div class="vsc-name">Srinivasa Precision Works</div>
+              <div class="vsc-category">Fabrication · Tamil Nadu</div>
+            </div>
+            <div class="vsc-score-wrap">
+              <div class="vsc-score">81</div>
+              <div class="vsc-badge badge-amber">Review</div>
+            </div>
+          </div>
+          <div class="vendor-score-card">
+            <div class="vsc-info">
+              <div class="vsc-name">Delta Logistics Corp</div>
+              <div class="vsc-category">Freight &amp; 3PL · Gujarat</div>
+            </div>
+            <div class="vsc-score-wrap">
+              <div class="vsc-score">88</div>
+              <div class="vsc-badge badge-green">Preferred</div>
+            </div>
+          </div>
+          <div class="vendor-score-card">
+            <div class="vsc-info">
+              <div class="vsc-name">Apex Electrical Supplies</div>
+              <div class="vsc-category">Electrical · Delhi NCR</div>
+            </div>
+            <div class="vsc-score-wrap">
+              <div class="vsc-score">63</div>
+              <div class="vsc-badge badge-red">Watch</div>
+            </div>
+          </div>
+          <div class="compliance-row" style="margin-top:16px;">
+            <div class="compliance-box">
+              <div class="compliance-icon">📄</div>
+              <div class="compliance-title">GST Verified</div>
+              <div class="compliance-status up">✓ 96%</div>
+            </div>
+            <div class="compliance-box">
+              <div class="compliance-icon">🔐</div>
+              <div class="compliance-title">Docs Current</div>
+              <div class="compliance-status up">✓ 91%</div>
+            </div>
+            <div class="compliance-box">
+              <div class="compliance-icon">⭐</div>
+              <div class="compliance-title">ISO Certified</div>
+              <div class="compliance-status" style="color:var(--amber-400);">◕ 74%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ANALYTICS ============ -->
+<section class="section-dark" id="analytics">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Procurement Analytics</div>
+      <h2 class="section-title">Spend intelligence that <em>drives decisions.</em></h2>
+      <p class="section-subtitle">Move beyond gut feel. Krayan's procurement analytics gives you category-level visibility, supplier benchmarks, and savings tracking — in a clean, actionable dashboard layer.</p>
+    </div>
+    <div class="analytics-grid reveal">
+      <div class="kpi-card">
+        <div class="kpi-label">Total Spend Managed</div>
+        <div class="kpi-value">₹<span class="kpi-unit">24.6</span>Cr</div>
+        <div class="kpi-change up">↑ 18.4% <span style="color:var(--text-muted);font-weight:400;">vs last quarter</span></div>
+        <div class="kpi-trend">Across 9 active categories</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Realised Savings</div>
+        <div class="kpi-value">₹<span class="kpi-unit">3.2</span>Cr</div>
+        <div class="kpi-change up">↑ 13.1% <span style="color:var(--text-muted);font-weight:400;">vs baseline</span></div>
+        <div class="kpi-trend">12.9% effective savings rate</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">RFQs Completed</div>
+        <div class="kpi-value"><span class="kpi-unit"></span>142</div>
+        <div class="kpi-change up">↑ 26 <span style="color:var(--text-muted);font-weight:400;">this quarter</span></div>
+        <div class="kpi-trend">Avg. 4.2 days cycle time</div>
+      </div>
+    </div>
+    <div class="chart-container reveal reveal-delay-2">
+      <div class="chart-header">
+        <div class="chart-title">Category Spend Distribution</div>
+        <div class="chart-filters">
+          <button class="chart-filter active" onclick="filterChart(this, 'Q2')">Q2 FY25</button>
+          <button class="chart-filter" onclick="filterChart(this, 'Q3')">Q3 FY25</button>
+          <button class="chart-filter" onclick="filterChart(this, 'Q4')">Q4 FY25</button>
+        </div>
+      </div>
+      <div class="spend-bars" id="spendBars">
+        <div class="spend-bar-row">
+          <div class="spend-bar-label">Raw Materials</div>
+          <div class="spend-bar-track"><div class="spend-bar-fill" style="width:0%" data-width="82%"></div></div>
+          <div class="spend-bar-value">₹8.2Cr</div>
+        </div>
+        <div class="spend-bar-row">
+          <div class="spend-bar-label">Electrical &amp; Control</div>
+          <div class="spend-bar-track"><div class="spend-bar-fill alt" style="width:0%" data-width="58%"></div></div>
+          <div class="spend-bar-value">₹5.8Cr</div>
+        </div>
+        <div class="spend-bar-row">
+          <div class="spend-bar-label">Mechanical Parts</div>
+          <div class="spend-bar-track"><div class="spend-bar-fill" style="width:0%" data-width="47%"></div></div>
+          <div class="spend-bar-value">₹4.7Cr</div>
+        </div>
+        <div class="spend-bar-row">
+          <div class="spend-bar-label">Freight &amp; Logistics</div>
+          <div class="spend-bar-track"><div class="spend-bar-fill alt" style="width:0%" data-width="31%"></div></div>
+          <div class="spend-bar-value">₹3.1Cr</div>
+        </div>
+        <div class="spend-bar-row">
+          <div class="spend-bar-label">Packaging</div>
+          <div class="spend-bar-track"><div class="spend-bar-fill" style="width:0%" data-width="18%"></div></div>
+          <div class="spend-bar-value">₹1.8Cr</div>
+        </div>
+        <div class="spend-bar-row">
+          <div class="spend-bar-label">MRO &amp; Consumables</div>
+          <div class="spend-bar-track"><div class="spend-bar-fill alt" style="width:0%" data-width="11%"></div></div>
+          <div class="spend-bar-value">₹1.1Cr</div>
+        </div>
+      </div>
+    </div>
+    <div class="analytics-features-grid reveal">
+      <div class="analytics-feature-card">
+        <div class="afc-icon">🎯</div>
+        <div class="afc-title">Savings Tracking</div>
+        <div class="afc-desc">Track realised vs. targeted savings by category, vendor, and time period with quantified outcomes.</div>
+      </div>
+      <div class="analytics-feature-card">
+        <div class="afc-icon">📉</div>
+        <div class="afc-title">Price Trend Monitoring</div>
+        <div class="afc-desc">Benchmark negotiated rates against market indices and historical pricing to validate every deal.</div>
+      </div>
+      <div class="analytics-feature-card">
+        <div class="afc-icon">🏷️</div>
+        <div class="afc-title">Supplier Comparison</div>
+        <div class="afc-desc">Side-by-side supplier evaluation across price, lead time, quality, and compliance dimensions.</div>
+      </div>
+      <div class="analytics-feature-card">
+        <div class="afc-icon">📋</div>
+        <div class="afc-title">Sourcing Performance Reports</div>
+        <div class="afc-desc">Periodic reports for procurement leaders and CFOs with executive dashboards and action summaries.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONSULTING ============ -->
+<section class="section-light" id="consulting">
+  <div class="container">
+    <div class="section-header center reveal">
+      <div class="section-label">Consulting Services</div>
+      <h2 class="section-title">Strategic procurement <em>partnership</em>,<br>not just software.</h2>
+      <p class="section-subtitle">Krayan brings structured procurement advisory to operations and supply chain leadership — from strategic sourcing to governance redesign and supplier rationalization.</p>
+    </div>
+    <div class="consulting-services-grid">
+      <div class="consulting-card reveal">
+        <div class="cc-icon">🔄</div>
+        <h3 class="cc-title">Procurement Transformation</h3>
+        <p class="cc-desc">End-to-end review and restructuring of your procurement function — processes, systems, team capability, and operating model clarity.</p>
+        <div class="cc-tags">
+          <span class="cc-tag">Process Review</span>
+          <span class="cc-tag">Operating Model</span>
+          <span class="cc-tag">Governance</span>
+        </div>
+      </div>
+      <div class="consulting-card reveal reveal-delay-1">
+        <div class="cc-icon">🎯</div>
+        <h3 class="cc-title">Strategic Sourcing Support</h3>
+        <p class="cc-desc">Category-specific sourcing strategies backed by market intelligence, supplier mapping, and structured negotiation planning.</p>
+        <div class="cc-tags">
+          <span class="cc-tag">Category Strategy</span>
+          <span class="cc-tag">Supplier Mapping</span>
+          <span class="cc-tag">TCO Analysis</span>
+        </div>
+      </div>
+      <div class="consulting-card reveal reveal-delay-2">
+        <div class="cc-icon">📊</div>
+        <h3 class="cc-title">Supplier Rationalization</h3>
+        <p class="cc-desc">Reduce fragmented vendor bases. Identify duplication, consolidate categories, and build a leaner, higher-performing supply base.</p>
+        <div class="cc-tags">
+          <span class="cc-tag">Vendor Consolidation</span>
+          <span class="cc-tag">Risk Reduction</span>
+          <span class="cc-tag">Cost Efficiency</span>
+        </div>
+      </div>
+      <div class="consulting-card reveal">
+        <div class="cc-icon">🤝</div>
+        <h3 class="cc-title">Negotiation Support</h3>
+        <p class="cc-desc">Krayan's consultants actively support supplier negotiations — preparing fact-packs, setting targets, and participating in commercial discussions.</p>
+        <div class="cc-tags">
+          <span class="cc-tag">Fact-Pack Prep</span>
+          <span class="cc-tag">Commercial Strategy</span>
+          <span class="cc-tag">Deal Closure</span>
+        </div>
+      </div>
+      <div class="consulting-card reveal reveal-delay-1">
+        <div class="cc-icon">⚙️</div>
+        <h3 class="cc-title">Process Improvement</h3>
+        <p class="cc-desc">Identify bottlenecks in your procurement cycle — approval flows, indent-to-PO time, supplier communication — and redesign for efficiency.</p>
+        <div class="cc-tags">
+          <span class="cc-tag">Cycle Time Reduction</span>
+          <span class="cc-tag">Process Design</span>
+          <span class="cc-tag">Compliance</span>
+        </div>
+      </div>
+      <div class="consulting-card reveal reveal-delay-2">
+        <div class="cc-icon">🗺️</div>
+        <h3 class="cc-title">Sourcing Governance</h3>
+        <p class="cc-desc">Build procurement policy frameworks, approval hierarchies, vendor selection criteria, and performance review cadences that last.</p>
+        <div class="cc-tags">
+          <span class="cc-tag">Policy Design</span>
+          <span class="cc-tag">Audit Readiness</span>
+          <span class="cc-tag">SLA Frameworks</span>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="#demo" class="btn btn-primary btn-lg">Talk to a Procurement Expert</a>
+      <p style="margin-top:14px;font-size:13px;color:var(--text-dark-secondary);">Initial consultation is complimentary. No obligation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRAINING ============ -->
+<section class="section-dark" id="training">
+  <div class="container">
+    <div class="training-layout">
+      <div>
+        <div class="section-header reveal">
+          <div class="section-label">Corporate Training</div>
+          <h2 class="section-title">Build <em>procurement capability</em> inside your organization.</h2>
+          <p class="section-subtitle">Krayan's corporate training programs are designed for procurement teams, sourcing managers, supply chain staff, and plant operations leadership who need practical, applied skills — not theory.</p>
+        </div>
+        <div class="training-cta-box reveal reveal-delay-2">
+          <div class="training-tagline">Designed for Indian industry</div>
+          <h3 style="font-size:22px;font-weight:800;color:var(--text-primary);letter-spacing:-0.02em;margin-bottom:12px;line-height:1.3;">Practical. Structured. Commercially relevant.</h3>
+          <p style="font-size:14px;color:var(--text-secondary);line-height:1.7;margin-bottom:24px;">Modules can be delivered on-site, in hybrid format, or as structured workshops. Tailored to your industry, your team's maturity, and your procurement priorities.</p>
+          <a href="#demo" class="btn btn-primary">Request a Training Consultation</a>
+        </div>
+      </div>
+      <div>
+        <div class="training-modules">
+          <div class="training-module reveal">
+            <div class="tm-num">MODULE 01</div>
+            <div class="tm-title">Strategic Sourcing Fundamentals</div>
+            <div class="tm-level">Foundation · 2 Days</div>
+          </div>
+          <div class="training-module reveal reveal-delay-1">
+            <div class="tm-num">MODULE 02</div>
+            <div class="tm-title">Negotiation Skills for Buyers</div>
+            <div class="tm-level">Applied · 1 Day</div>
+          </div>
+          <div class="training-module reveal reveal-delay-2">
+            <div class="tm-num">MODULE 03</div>
+            <div class="tm-title">Vendor Evaluation &amp; Onboarding</div>
+            <div class="tm-level">Operational · 1 Day</div>
+          </div>
+          <div class="training-module reveal reveal-delay-3">
+            <div class="tm-num">MODULE 04</div>
+            <div class="tm-title">Cost Analysis &amp; Price Benchmarking</div>
+            <div class="tm-level">Analytical · 2 Days</div>
+          </div>
+          <div class="training-module reveal">
+            <div class="tm-num">MODULE 05</div>
+            <div class="tm-title">Procurement Analytics &amp; Dashboards</div>
+            <div class="tm-level">Advanced · 2 Days</div>
+          </div>
+          <div class="training-module reveal reveal-delay-1">
+            <div class="tm-num">MODULE 06</div>
+            <div class="tm-title">Supply Chain Risk Management</div>
+            <div class="tm-level">Strategic · 1 Day</div>
+          </div>
+          <div class="training-module reveal reveal-delay-2">
+            <div class="tm-num">MODULE 07</div>
+            <div class="tm-title">Category Buying &amp; Management</div>
+            <div class="tm-level">Advanced · 2 Days</div>
+          </div>
+          <div class="training-module reveal reveal-delay-3">
+            <div class="tm-num">MODULE 08</div>
+            <div class="tm-title">RFQ Design &amp; Best Practices</div>
+            <div class="tm-level">Operational · 1 Day</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANS ============ -->
+<section class="section-light-alt" id="plans">
+  <div class="container">
+    <div class="section-header center reveal">
+      <div class="section-label">Engagement Models</div>
+      <h2 class="section-title">Commercial engagements built<br>around <em>your outcomes.</em></h2>
+      <p class="section-subtitle">Krayan's pricing is tied to real procurement value — not software seat counts. Choose an engagement model that fits your procurement maturity and business scale.</p>
+    </div>
+    <div class="plans-grid">
+      <div class="plan-card reveal">
+        <div class="plan-name">Advisory</div>
+        <div class="plan-title">Procurement Advisory</div>
+        <div class="plan-desc">For organisations building procurement capability — strategic sourcing guidance, process benchmarking, and periodic analytics reviews.</div>
+        <div class="plan-price">
+          <div class="plan-price-label">Engagement Model</div>
+          <div class="plan-price-value">Retainer-Based</div>
+        </div>
+        <div class="plan-features">
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Procurement process review &amp; gap analysis
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Category sourcing strategy development
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Periodic spend analytics support
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Quarterly procurement leadership reviews
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Vendor risk and rationalization support
+          </div>
+        </div>
+        <a href="#demo" class="btn btn-outline-dark" style="width:100%;justify-content:center;">Request Proposal</a>
+      </div>
+      <div class="plan-card featured reveal reveal-delay-1">
+        <div class="plan-badge">Most Engaged</div>
+        <div class="plan-name">Managed Procurement</div>
+        <div class="plan-title">Managed Procurement</div>
+        <div class="plan-desc">Krayan acts as your managed procurement agent — running RFQs, negotiating with suppliers, and coordinating sourcing execution on your behalf.</div>
+        <div class="plan-price">
+          <div class="plan-price-label">Commercial Model</div>
+          <div class="plan-price-value">% of Savings Delivered</div>
+        </div>
+        <div class="plan-features">
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Full RFQ execution and vendor outreach
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Supplier negotiation and bid comparison
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Authorization-based order placement support
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Supplier invoices directly to client
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Monthly savings tracking and reporting
+          </div>
+        </div>
+        <a href="#demo" class="btn btn-primary" style="width:100%;justify-content:center;">Book Free Demo</a>
+      </div>
+      <div class="plan-card reveal reveal-delay-2">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-title">Enterprise Partnership</div>
+        <div class="plan-desc">For large manufacturing or EPC businesses requiring a dedicated procurement desk, analytics reviews, and ongoing strategic governance.</div>
+        <div class="plan-price">
+          <div class="plan-price-label">Commercial Model</div>
+          <div class="plan-price-value">Retainer + Savings Share</div>
+        </div>
+        <div class="plan-features">
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Dedicated Krayan procurement desk
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Full vendor performance governance
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Monthly analytics reviews with leadership
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Quarterly strategic sourcing workshops
+          </div>
+          <div class="plan-feature">
+            <div class="plan-feature-check"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
+            Priority access to Krayan expert network
+          </div>
+        </div>
+        <a href="#demo" class="btn btn-outline-dark" style="width:100%;justify-content:center;">Request Proposal</a>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:32px;font-size:13px;color:var(--text-dark-secondary);" class="reveal">All engagements begin with a complimentary procurement scoping call. <a href="#demo" style="color:var(--accent);font-weight:600;">Schedule yours →</a></p>
+  </div>
+</section>
+
+<!-- ============ LME SECTION ============ -->
+<section class="section-dark" id="lme">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Commodity Intelligence</div>
+      <h2 class="section-title"><em>LME-linked</em> commodity price visibility<br>before you negotiate.</h2>
+      <p class="section-subtitle">Input cost awareness is a sourcing advantage. Krayan tracks LME benchmark prices and commodity indices to inform smarter purchasing decisions across metal-linked categories.</p>
+    </div>
+    <div class="lme-grid" id="lmeGrid">
+      <!-- LME cards injected by JS -->
+    </div>
+    <div style="margin-top:40px;padding:24px 32px;background:var(--graphite-800);border:1px solid var(--border-dark);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;" class="reveal">
+      <div>
+        <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;">Commodity-Linked Sourcing Support</div>
+        <div style="font-size:18px;font-weight:700;color:var(--text-primary);letter-spacing:-0.02em;">Link your purchase decisions to live market benchmarks.</div>
+        <div style="font-size:13px;color:var(--text-secondary);margin-top:6px;">Avoid over-paying in upswings. Negotiate better in corrections. Talk to Krayan's sourcing experts.</div>
+      </div>
+      <a href="#demo" class="btn btn-primary" style="flex-shrink:0;">Talk to an Expert</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COST BREAKUP TOOL ============ -->
+<section class="section-light" id="cost-tool">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Cost Intelligence Tool</div>
+      <h2 class="section-title">Understand every rupee in<br>your <em>landed cost.</em></h2>
+      <p class="section-subtitle">Krayan's cost breakup framework helps procurement teams and CFOs decompose total procurement cost — and identify exactly where savings opportunity exists.</p>
+    </div>
+    <div class="cost-tool-layout">
+      <div class="reveal">
+        <div style="background:var(--stone-100);border:1px solid var(--stone-200);border-radius:var(--radius-xl);padding:32px;">
+          <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dark-secondary);margin-bottom:20px;">Enter Component Costs (₹)</div>
+          <div class="cost-input-group" id="costInputs">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#b5621e;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Base Material Cost</div>
+                <input type="number" class="cost-input-field" id="cost-material" value="45000" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#c9722a;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Conversion / Processing Cost</div>
+                <input type="number" class="cost-input-field" id="cost-conversion" value="12000" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#d98840;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Freight &amp; Logistics</div>
+                <input type="number" class="cost-input-field" id="cost-freight" value="4500" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#e8a86a;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Duties &amp; Taxes (GST, Customs)</div>
+                <input type="number" class="cost-input-field" id="cost-duties" value="8100" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#f2c898;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Packaging &amp; Handling</div>
+                <input type="number" class="cost-input-field" id="cost-packaging" value="1800" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#5a6068;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Supplier Margin</div>
+                <input type="number" class="cost-input-field" id="cost-margin" value="6500" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:10px;height:10px;border-radius:50%;background:#3d4147;flex-shrink:0;"></div>
+              <div style="flex:1;">
+                <div class="cost-input-label">Inventory / Carrying Cost</div>
+                <input type="number" class="cost-input-field" id="cost-inventory" value="2200" oninput="calcCost()" min="0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cost-output reveal reveal-delay-2">
+        <div class="cost-total-box">
+          <div class="cost-total-label">Total Landed Cost</div>
+          <div class="cost-total-value"><span class="cost-total-unit">₹</span><span id="costTotal">80,100</span></div>
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);margin-top:6px;">Per unit / per batch</div>
+        </div>
+        <div class="cost-bars-list" id="costBars">
+          <!-- filled by JS -->
+        </div>
+        <div class="cost-savings-note" id="savingsNote">
+          <div class="cost-savings-label">Estimated Savings Opportunity</div>
+          <div class="cost-savings-value" id="savingsValue">₹10,000 – ₹14,000</div>
+          <div style="font-size:12px;color:rgba(76,175,125,0.7);margin-top:4px;">12–17% of landed cost. Talk to Krayan to validate.</div>
+        </div>
+        <a href="#demo" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;" id="cost-export-btn">Get a Full Cost Analysis Report</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VENDOR REGISTRATION CTA ============ -->
+<section class="section-alt" id="vendor-reg-cta">
+  <div class="container">
+    <div class="vendor-reg-cta reveal">
+      <div>
+        <div class="section-label">Join the Krayan Network</div>
+        <h2 style="font-size:clamp(24px,3.5vw,38px);font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;line-height:1.2;margin-bottom:14px;">Are you a supplier or<br>service provider?</h2>
+        <p style="font-size:15px;color:var(--text-secondary);line-height:1.7;max-width:420px;">Join the Krayan vendor network and get connected with verified procurement requirements from mid-size and large businesses across India.</p>
+        <ul style="display:flex;flex-direction:column;gap:10px;margin-top:24px;">
+          <li style="display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text-secondary);">
+            <span style="color:#4caf7d;">✓</span> Access to verified RFQ opportunities
+          </li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text-secondary);">
+            <span style="color:#4caf7d;">✓</span> Build credibility through structured scoring
+          </li>
+          <li style="display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text-secondary);">
+            <span style="color:#4caf7d;">✓</span> Transparent evaluation. No hidden fees.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="vendor-registration.html" class="btn btn-primary btn-lg" id="vendor-reg-main-btn" style="display:block;text-align:center;margin-bottom:16px;">Register as a Vendor</a>
+        <p style="font-size:12px;color:var(--text-muted);text-align:center;">Registration is free. Our team reviews and responds within 3 business days.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEMO CTA ============ -->
+<div class="demo-cta" id="demo">
+  <div class="container">
+    <div class="demo-cta-inner reveal">
+      <div class="section-label" style="justify-content:center;margin-bottom:16px;">
+        <span style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);">Free Procurement Demo</span>
+      </div>
+      <h2 class="demo-cta-title">See what Krayan can do<br>for your sourcing operation.</h2>
+      <p class="demo-cta-sub">In a 45-minute working session, we'll walk through your procurement setup, identify visible savings opportunities, and show you how Krayan's managed approach works in practice.</p>
+      <div class="demo-ctas">
+        <a href="mailto:demo@krayan.in?subject=Book Free Demo" class="btn btn-primary btn-lg" id="schedule-demo-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Schedule Free Demo
+        </a>
+        <a href="mailto:consult@krayan.in?subject=Procurement Consultation" class="btn btn-outline btn-lg" id="consult-btn">Talk to a Procurement Expert</a>
+      </div>
+      <p style="margin-top:24px;font-size:13px;color:var(--text-muted);">No sales pitch. No commitment required. Just a clear, honest conversation about your procurement needs.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="navbar-logo" style="margin-bottom:0;">
+          <div class="logo-mark">Kr</div>
+          <span class="logo-text">Kray<span>an</span></span>
+        </div>
+        <p class="footer-brand-desc">Krayan is a managed procurement consultancy working with Indian businesses to improve sourcing efficiency, vendor governance, and cost intelligence. Supplier invoices go directly to clients. Krayan earns from savings delivered.</p>
+        <div style="display:flex;gap:14px;margin-top:24px;">
+          <a href="mailto:info@krayan.in" style="width:34px;height:34px;background:var(--graphite-700);border:1px solid var(--border-dark);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:15px;transition:color 0.2s,border-color 0.2s;" aria-label="Email">✉️</a>
+          <a href="tel:+918000000000" style="width:34px;height:34px;background:var(--graphite-700);border:1px solid var(--border-dark);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:15px;" aria-label="Phone">📞</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" style="width:34px;height:34px;background:var(--graphite-700);border:1px solid var(--border-dark);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:15px;" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Services</div>
+        <div class="footer-links">
+          <a href="#vendor-management" class="footer-link">Vendor Management</a>
+          <a href="#analytics" class="footer-link">Procurement Analytics</a>
+          <a href="#consulting" class="footer-link">Consulting Services</a>
+          <a href="#training" class="footer-link">Corporate Training</a>
+          <a href="#lme" class="footer-link">Commodity Intelligence</a>
+          <a href="#cost-tool" class="footer-link">Cost Breakup Tool</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Company</div>
+        <div class="footer-links">
+          <a href="#plans" class="footer-link">Engagement Plans</a>
+          <a href="vendor-registration.html" class="footer-link">Vendor Registration</a>
+          <a href="#demo" class="footer-link">Book Free Demo</a>
+          <a href="#contact" class="footer-link">Contact Us</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Contact</div>
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            India — Pan-India Service Delivery
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">✉️</span>
+            info@krayan.in
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📞</span>
+            +91 80000 00000
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">🕐</span>
+            Mon–Fri, 9 AM – 6 PM IST
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Krayan Procurement Consultancy. All rights reserved.</p>
+      <div class="footer-legal-links">
+        <a href="#" class="footer-legal-link">Privacy Policy</a>
+        <a href="#" class="footer-legal-link">Terms of Use</a>
+        <a href="#" class="footer-legal-link">Disclaimer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
